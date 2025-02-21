@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Layout from './Layout/Layout';
 
 const App = () => {
   return (
-    <div>
-      <h1 className='underline text-4xl text-green-500'>Hello Guys</h1>
-      
-    </div>
-  )
-}
+   <>
+   <Layout/>
+   </>
+  );
+};
 
-export default App
+export default App;
